@@ -7,6 +7,10 @@ pagination:
   pagerSize: 5
 enableRobotsTXT: true
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 params:
 
   enableGitInfo: true

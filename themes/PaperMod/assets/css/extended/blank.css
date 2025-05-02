@@ -1,0 +1,100 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+
+body {
+  font-family: monospace;
+}
+
+.post-entry {
+  background-color: transparent;
+  border: none;
+}
+
+.post-entry:hover .entry-header,
+.archive-entry:hover .archive-entry-title {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: rotate(5deg);
+}
+
+.logo-switches:hover {
+  transform: scale(1.1);
+}
+
+.toc {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.toc .details {
+  cursor: pointer;
+}
+
+.toc .details:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.first-entry {
+  margin: 0;
+  min-height: 200px;
+}
+
+.footer-social-icons {
+  display: inline-flex;
+  gap: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.footer-social-icons a {
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.footer-social-icons a:hover {
+  transform: rotate(5deg);
+}
+
+.footer-social-icons .svg-icon svg {
+  width: 18px;
+  height: 18px;
+  vertical-align: text-bottom;
+}
+
+.post-tags li a {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.paginav {
+  background-color: transparent;
+  border: none;
+}
+
+.next:hover,
+.next span:hover,
+.prev:hover,
+.prev span:hover {
+  background-color: transparent !important;
+  text-decoration: none;
+}
+
+.footer span a,
+.footer span a:hover {
+  border: none;
+}
+
+/* Override PaperMod font variables */

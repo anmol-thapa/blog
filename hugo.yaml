@@ -1,7 +1,8 @@
-baseURL: "https://anmolthapa.dev"
+baseURL: "/blog/"
 languageCode: "en-us"
 title: "anmolthapa.dev"
 theme: "PaperMod"
+canonifyURLs: true
 
 pagination:
   pagerSize: 5
@@ -12,7 +13,6 @@ caches:
     dir: :cacheDir/images
 
 params:
-
   enableGitInfo: true
 
   homeInfoParams:
@@ -23,12 +23,12 @@ params:
       title: Github
       url: "https://github.com/anmol-thapa"
     - name: linkedin
-      title: linkedin
+      title: LinkedIn
       url: "https://linkedin.com/in/anmol--thapa"
     - name: cv
-      title: resume
+      title: Resume
       url: "https://anmolthapa.dev/Resume.pdf"
-  
+
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowPostNavLinks: true

@@ -97,4 +97,9 @@ a:hover {
   border: none;
 }
 
+.links {
+  box-shadow: none !important;
+  font-weight: bold;
+}
+
 /* Override PaperMod font variables */
